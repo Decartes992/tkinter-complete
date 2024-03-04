@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import ttk
 import customtkinter as ctk
 from PIL import Image, ImageTk
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 def stretch_image(event):
 	global resized_tk
