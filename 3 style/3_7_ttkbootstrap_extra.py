@@ -5,6 +5,9 @@ from ttkbootstrap.toast import ToastNotification
 from ttkbootstrap.tooltip import ToolTip
 from ttkbootstrap.widgets import DateEntry, Floodgauge, Meter
 
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 # window
 window = ttk.Window(themename = 'darkly')
 window.title('extra widgets')

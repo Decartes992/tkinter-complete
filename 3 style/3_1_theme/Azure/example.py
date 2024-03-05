@@ -8,7 +8,8 @@ Source: https://github.com/rdbende/ttk-widget-factory
 
 import tkinter as tk
 from tkinter import ttk
-
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 class App(ttk.Frame):
     def __init__(self, parent):
